@@ -60,21 +60,18 @@ flowchart TD;
 ---
 
 ## **📈 Results & Observations**
-- **CNN Model Accuracy**: 🏆 92%+ validation accuracy in predicting **Sell/Hold** signals.
-- **RNN Model Performance**: 📊 Predicts future prices using **Sell Probabilities & Historical Data**.
-- **Trading Strategy**: 🎯 Helps in identifying **profitable trading windows**.
+- **Prediction vs Actual**
+
+![image](image/Prediction_Actual.png)
+
+- **Prediction vs Actual with Noise 0.001 std**
+
+![image](image/Noise_Output.png)
+
+- **Prediction vs Actual with different Noise Level**
+
+![image](image/Noise_output_total.png)
 
 ---
-
-## **📢 Future Improvements**
-- Improve **data augmentation** for CNN training.
-- Experiment with **different RNN architectures (LSTM/GRU)**.
-- Integrate **real-time market data for live trading signals**.
-
----
-
-## **📩 Contact**
 For any questions or contributions, feel free to reach out!
-
-📧 Email: your.email@example.com
 
